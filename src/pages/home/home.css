@@ -1,0 +1,30 @@
+.fist-card, .second-card, .third-card, .fifth-card{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.fist-card {
+    background-image: url(../../../public/assets/images/medikit.png);
+    
+}
+.second-card {
+    background-image: url(../../../public/assets/images/kedney.png);
+}
+.third-card {
+    background-image: url(../../../public/assets/images/phandsome-doctor.png);
+}
+.fourth-card {
+    background-image: url(../../../public/assets/svg/curve.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.fifth-card {
+    background-image: url(../../../public/assets/images/doctor-hospital-with-stethoscope.png);
+}
+.sixth-card {
+    background-image: url(../../../public/assets/images/operation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Fredoka:wght@300;400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: 'DM Sans', sans-serif;
+}
+body {
+  font-family: "Roboto", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+.fredoka {
+  font-family: 'Fredoka', sans-serif !important;
+}
+
+.hero-secondary-bg {
+  background: linear-gradient(rgba(26, 53, 106, 0.63),rgba(26, 53, 106, 0.63)),url(/public/assets/images/hero-secondary.png);
+  border-radius: 108px;
+border: 2px solid rgba(255, 255, 255, 0.00);
+box-shadow: 0px 12px 33px 0px rgba(0, 0, 0, 0.25);
+}
+
+.align-center{
+  align-items: center !important;
+}

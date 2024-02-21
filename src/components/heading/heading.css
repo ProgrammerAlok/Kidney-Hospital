@@ -1,0 +1,40 @@
+.heading-container h4 {
+    color: #6285CA;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125rem; /* 112.5% */
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+}
+
+.heading-container h1 {
+    color: #032342;
+    font-family: Fredoka;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 1rem 0;
+}
+
+.heading-container h1 span {
+    color: #385182;
+    font-family: Fredoka;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width: 700px) {
+    .heading-container h4 {
+        font-size: 14px;
+    }
+    
+    .heading-container h1 {
+        font-size: 24px;
+    }
+
+    
+}

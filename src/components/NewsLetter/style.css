@@ -1,0 +1,68 @@
+
+
+.newsletter-container h1 {
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.newsletter-container h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Fredoka;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.newsletter-container p {
+    color: #AFB9CD;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newsletter-container input {
+    color: #AFB9CD;
+    text-align: left;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-radius: 0.625rem;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: #445B89;
+}
+
+.newsletter-container button {
+    color: #032342;
+    font-family: DM Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    border-radius: 0.625rem;
+    background: #FFF;
+    padding: .6rem 1.2rem;
+}
+
+.newsletter-container > div {
+    border-radius: 1.25rem;
+    background: rgba(56, 81, 130, 1) url(../../../public/assets/images/vectors.svg) ;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.newsletter-container .dia2 span {
+    display: block;
+}
+

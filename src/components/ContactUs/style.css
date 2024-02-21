@@ -1,0 +1,214 @@
+.home-contact-us-container-wrapper {
+    padding: 5rem 0;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.home-contact-us-container {
+
+}
+
+.home-contact-us-container .grid1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+}
+
+.home-contact-us-container h4 {
+    color: #6285CA;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125rem; /* 112.5% */
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+}
+
+.home-contact-us-container h1 {
+    color: #032342;
+    font-family: Fredoka;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.125rem; /* 125% */
+}
+
+.home-contact-us-container h1 span {
+    color: #385182;
+    font-family: Fredoka;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.125rem;
+}
+
+.home-contact-us-container p {
+    color: #888;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 1.3rem */
+}
+
+.home-contact-us-container h2 {
+    color: #032342;
+    font-family: Fredoka;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem; /* 160% */
+}
+
+.home-contact-us-container .mask-icon svg {
+    display: inline;
+}
+
+.home-contact-us-container button {
+    width: 11.8125rem;
+    height: 3.25rem;
+    flex-shrink: 0;
+    color: white;
+    border-radius: 1.1875rem;
+    background: #385182;
+    box-shadow: 0px -2px 14px 0px rgba(0, 0, 0, 0.05), 1px 9px 12px 0px rgba(0, 0, 0, 0.15) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.home-contact-us-container .image-over-box{
+    border-radius: 0.625rem;
+    background: #FFF;
+    box-shadow: -10px -16px 56px -1px rgba(0, 0, 0, 0.05);
+    width:  fit-content;
+    padding: 1rem;
+    aspect-ratio: 1 / 1;
+}
+
+.home-contact-us-container .options {
+    border-radius: 1rem;
+    background: #385182;
+    box-shadow: 0px -2px 14px 0px rgba(0, 0, 0, 0.05), 1px 9px 12px 0px rgba(0, 0, 0, 0.15) inset;
+    margin: 4rem 0;
+}
+
+.home-contact-us-container .options > div {
+    transform: rotate(-2.879deg);
+    flex-shrink: 0;
+    border-radius: 1.0625rem;
+    background: #FFF;
+    box-shadow: 0px -2px 14px 0px rgba(0, 0, 0, 0.05);
+    padding: 1rem 2rem;
+}
+
+
+
+
+/* 2xl	1536px	 */
+@media screen and (max-width: 1536px) { 
+    
+}
+
+/* xl	1280px	 */
+@media screen and (max-width: 1280px) { 
+    
+}
+
+/* lg	1024px	 */
+@media screen and (max-width: 1024px) { 
+
+}
+
+/* md	768px	 */
+@media screen and (max-width: 768px) { 
+    .home-contact-us-container .grid1{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4rem
+
+    }
+
+    .home-contact-us-container-wrapper {
+        max-width: 90%;
+    }
+
+    .home-contact-us-container .image-over-box{
+        border-radius: 0.625rem;
+        background: #FFF;
+        box-shadow: -10px -16px 56px -1px rgba(0, 0, 0, 0.05);
+        width:  fit-content;
+        padding: 1rem;
+        aspect-ratio: 1 / 1;
+    }
+    
+    
+    .home-contact-us-container h4 {
+        color: #6285CA;
+    font-family: Fredoka;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125rem; /* 128.571% */
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+    }
+
+    .home-contact-us-container h1 {
+        color: #032342;
+        font-family: Fredoka;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .home-contact-us-container h1 span {
+        color: #385182;
+        font-family: Fredoka;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .home-contact-us-container p {
+        color: #888;
+        font-family: DM Sans;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 139.884%; /* 1.224rem */
+    }
+
+    .home-contact-us-container h2 {
+        color: #032342;
+        font-family: Fredoka;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .home-contact-us-container button {
+        width: 9.1875rem;
+        height: 3rem;
+        flex-shrink: 0;
+        color: white;
+        border-radius: 1.1875rem;
+        background: #385182;
+        box-shadow: 0px -2px 14px 0px rgba(0, 0, 0, 0.05), 1px 9px 12px 0px rgba(0, 0, 0, 0.15) inset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0;
+    }
+
+}
+
+/* sm	640px	 */
+@media screen and (max-width: 640px) {
+
+}

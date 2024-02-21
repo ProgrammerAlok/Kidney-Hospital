@@ -1,0 +1,124 @@
+.home-testimonials-wrapper {
+    background: #F5F6F9;
+    padding: 4rem 0;
+}
+
+.home-testimonials {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-testimonials h4 {
+    color: #6285CA;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125rem;
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+}
+
+.home-testimonials h1 {
+    color: #032342;
+    text-align: center;
+    font-family: Fredoka;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 1rem 0;
+}
+
+.home-testimonials h1 span {
+    color: #385182;
+    font-family: Fredoka;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.home-testimonials > .avatar {
+    width: 7.1875rem;
+    height: 7.1875rem;
+    flex-shrink: 0;
+    border-radius: 7.1875rem;
+    border: 3px solid #FFF;
+    background: url(../../assets/images/avatar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.11);
+    padding: 1rem 0;
+}
+
+.home-testimonials h3 {
+    color: #032342;
+    font-family: Fredoka;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem; /* 133.333% */
+}
+
+.home-testimonials h5 {
+    color: #888;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+}
+
+.home-testimonials > .avatar1 {
+    width: 4.1875rem;
+    height: 4.1875rem;
+    flex-shrink: 0;
+    border-radius: 4.1875rem;
+    border: 2px solid #FFF;
+    background: url(../../assets/images/Avatar1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.11);
+    padding: 1rem 0;
+}
+
+.home-testimonials > .avatar2 {
+    width: 4.1875rem;
+    height: 4.1875rem;
+    flex-shrink: 0;
+    border-radius: 4.1875rem;
+    border: 2px solid #FFF;
+    background: url(../../assets/images/Avatar2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, 0.11);
+    padding: 1rem 0;
+}
+
+
+/* sm	640px	 */
+@media screen and (max-width: 640px) {
+    .home-testimonials > .avatar {
+        width: 5.625rem;
+        height: 5.625rem;
+        flex-shrink: 0;
+    }  
+    
+    
+.home-testimonials h1 {
+    font-size: 24px;
+    padding: 0;
+    padding-bottom: 1rem;
+    padding-top: 8px;
+}
+
+.home-testimonials h4 {
+    font-size: 14px;
+}
+}

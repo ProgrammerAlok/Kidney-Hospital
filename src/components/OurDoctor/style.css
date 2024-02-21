@@ -1,0 +1,201 @@
+.home-our-doctor-container-wrapper {
+    padding: 4rem 0;
+    background: #fff;
+}
+
+.home-our-doctor-container {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 4rem;
+}
+
+.home-our-doctor-container .card-wrapper{
+    height: fit-content;
+    margin-top: 7rem;
+}
+
+.home-our-doctor-container .card {
+    color: #FFF;
+    border-radius: 1rem;
+    background: #385182;
+    box-shadow: 0px -2px 14px 0px rgba(0, 0, 0, 0.05), 1px 9px 12px 0px rgba(0, 0, 0, 0.15) inset;
+    padding: 4rem 0;
+}
+
+
+.home-our-doctor-container .card button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+
+    border-radius: 0.625rem;
+    border: 1px solid #FFF;
+    box-shadow: 0px -2px 14px 0px rgba(0, 0, 0, 0.05), 1px 9px 12px 0px rgba(0, 0, 0, 0.15) inset;
+
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home-our-doctor-container .card .wave > svg {
+    position: absolute;
+    right: -.1rem;
+    bottom: -.1rem;
+}
+
+.home-our-doctor-container .card .avatar {
+    position: absolute;
+    left: -.5rem;
+    bottom: 0;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+.home-our-doctor-container .right h3 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.625rem;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.72;
+    color: transparent;
+}
+
+.home-our-doctor-container .right .left-arrow > svg {
+    height: 2rem;
+    width: 2rem;
+}
+
+.home-our-doctor-container .right .north-east-arrow {
+    background: #FFF;
+    border-radius: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    padding: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-our-doctor-container .leaf-img {
+    background: url(../../assets/images/leaf.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2rem;
+    width: 2rem;
+}
+
+.home-our-doctor-container .card h1 {
+    color: #FFF;
+    font-family: Fredoka;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.home-our-doctor-container .card p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+/* 2xl	1536px	 */
+@media screen and (max-width: 1536px) { 
+    
+}
+
+/* xl	1280px	 */
+@media screen and (max-width: 1280px) { 
+    
+}
+
+/* lg	1024px	 */
+@media screen and (max-width: 1024px) { 
+
+}
+
+/* md	768px	 */
+@media screen and (max-width: 768px) { 
+    .home-our-doctor-container {
+        grid-template-columns: repeat(1,1fr);
+        max-width: 90%;
+    }
+
+    .home-our-doctor-container .card {
+        padding: 3.5rem 0;
+    }
+    
+    .home-our-doctor-container .card .avatar {
+        width: 40%;
+    }
+    
+    .home-our-doctor-container .card h1 {
+        color: #FFF;
+        font-family: Fredoka;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .home-our-doctor-container .card p {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: DM Sans;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .home-our-doctor-container .card button {
+        width: 9rem;
+        height: 2.25rem;
+        flex-shrink: 0;
+
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    
+}
+
+/* sm	640px	 */
+@media screen and (max-width: 640px) {
+    .home-our-doctor-container .card {
+        padding: 2rem 0;
+    }
+
+    .home-our-doctor-container .card-wrapper {
+        margin-top: 4rem;
+    }
+}
+
+
